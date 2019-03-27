@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+	<h3>Registration</h3>
+	
+	<hr color="black">
+
+		<p><a href="../main.html">Main page</a></p>
+		<p><a href="art.html">Articles</a></p>
+		<p><a href="cat.html">Catalog</a></p>
+		<p><a href="img.html">Gallery of images</a></p>
+		<p><a href="cont.html">Contacts</a></p>
+	
+	<hr color="black">
+	
+	<form action="test" method="get">
+			<fieldset>
+				<p><strong>Укажите Ваши данные</strong></p>
+					<input type="text" placeholder="Фамилия" name="name"><br>
+					<input type="text" placeholder="Имя" name="name"><br>
+					<input type="text" placeholder="Отчество" name="name"><br>
+			
+			<p><strong>Добавьте фотографию</strong><br>
+					<input type="file" name="fle"></p><br>
+			<p><strong>Укажите электронную почту и пароль</strong></p>		
+					<input type="text" placeholder="Адрес @mail" name="email"><br>
+					<input type="password" placeholder="Пароль" name="passw"><br>
+			
+			<p><strong>Адрес сайта</strong>
+					<input type="text" value="http://" name="website"></p><br>
+			
+			<p><strong>Укажите пол</strong>
+				<label for="rb3">
+	        		<input type="radio" id="rb3" name="rbx" value="rb3" checked>Мужской
+	        	</label>
+	      		
+	      		<label for="rb2">
+	        		<input type="radio" id="rb2" name="rbx" value="rb2">Женский
+	        	</label></p>
+	        
+	        <p><strong>Выбрать дату рождения </strong>
+	        		<input type="date" name="dte"></p>
+	       
+	        <p><strong>Выберите предпочитаемую кухню</strong></p>
+	        <select name="select" id="select2">
+		          <option value="1">Итальянская кухня</option>
+		          <option value="2">Японская кухня</option>
+		          <option value="3">Арабская кухня</option>
+		          <option value="3">Русская кухня</option>
+			</select>
+		    
+		    <br>
+		    <br>
+	        <textarea name="uself" placeholder="О себе" id="uself" cols="50" rows="7"></textarea><br>
+				
+				
+
+				<input type="submit" value="Зарегистрироваться">
+				
+				<input type="reset" value="Очистить форму">
+			</fieldset>
+
+	</form>
+	<div><p>&copy;</p></div>
+</body>
+
+</html>
